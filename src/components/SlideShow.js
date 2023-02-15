@@ -1,7 +1,7 @@
 import React from "react";
 import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import "./stylesheet/slideshow.css";
+import "./stylesheet/slideshow.scss";
 
 const SlideShow = () => {
   const zoomOutProperties = {

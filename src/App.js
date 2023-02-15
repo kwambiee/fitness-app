@@ -1,4 +1,11 @@
+import React from "react";
+import HomePage from "./components/pages/HomePage";
+
 const App = () => {
-  return <h1>Hello, starting building the App</h1>;
+  return (
+    <div className='App'>
+      <HomePage />
+    </div>
+  );
 };
 export default App;
